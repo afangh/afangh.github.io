@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+</head>
+<style type="text/css">
+	body{
+		margin: 0px;
+	}
+	#wrapper{
+		background-color: #C5C5C5;
+		width: 90%;
+		height: 2700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#main1{
+		background-color: #F4ACAD;
+		width: 100%;
+		height: 700px;
+	}
+	#header{
+		background-color: #D19CF4;
+		width: 100%;
+		height: 200px;
+		padding: 25px;
+		box-sizing: border-box;
+	}
+	#name{
+		background-color: #EC6466;
+		width: 300px;
+		height: 100px;
+		float: left;
+	}
+	#logo{
+		background-color: #82E8A7;
+		width: 400px;
+		height: 150px;
+		float: right;
+	}
+	#navbox_all{
+		background-color: #78F8E6;
+		width: 500px;
+		height: 50px;
+		margin-top: 120px;
+	}
+	#navbox_left{
+		background-color: #5B1214;
+		width: 100px;
+		height: 50px;
+		float: left;
+	}
+	#navbox_center_left{
+		background-color: #111C42;
+		width: 100px;
+		height: 50px;
+		float: left;
+	}
+	#navbox_center{
+		background-color: #165A55;
+		width: 100px;
+		height: 50px;
+		float: left;
+	}
+	#navbox_center_right{
+		background-color: #172A0D;
+		width: 100px;
+		height: 50px;
+		float: left;
+	}
+	#navbox_right{
+		background-color: #434511;
+		width: 100px;
+		height: 50px;
+		float: left;
+	}
+	#pic_box{
+		background-color: #F05927;
+		width: 50%;
+		height: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+	}
+	#subnav{
+		background: #969595;
+		width: 80%;
+		height: 180px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+	}
+	#subnav_left{
+		background-color: #AEB18B;
+		width: 30%;
+		height: 180px;
+		float: left;
+		margin-right: 5%;
+	}
+	#subnav_center{
+		background-color: #470000;
+		width: 30%;
+		height: 180px;
+		float: left;
+		margin-right: 5%;
+	}
+	#subnav_right{
+		background-color: #5E88DC;
+		width: 30%;
+		height: 180px;
+		float: left;
+	}
+	#main2{
+		background-color: #83A683;
+		width: 100%;
+		height: 900px;
+	}
+	#marquee{
+		background-color: #B4B4B4;
+		width: 100%;
+		height: 450px;
+	}
+	#mind2_pic_box{
+		background-color: #000000;
+		width: 100%;
+		height: 450px;
+	}
+	#main3{
+		background-color: #E32528;
+		width: 100%;
+		height: 1000px;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	#box_1{
+		background-color: #B38D8E;
+		height: 225px;
+		width: auto;
+		margin-bottom: 20px;
+	}
+	#box_1_left{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		margin-right: 5%;
+		float: left;
+	}
+	#box_1_center{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		margin-right: 5%;
+		float: left;
+	}
+	#box_1_right{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		float: left;
+	}
+	#box_2{
+		background-color: #B38D8E;
+		height: 225px;
+		width: auto;
+		margin-bottom: 20px;
+	}
+	#box_2_left{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		margin-right: 5%;
+		float: left;
+	}
+	#box_2_center{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		margin-right: 5%;
+		float: left;
+	}
+	#box_2_right{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		float: left;
+	}
+	#box_3{
+		background-color: #B38D8E;
+		height: 225px;
+		width: auto;
+		margin-bottom: 20px;
+	}
+	#box_3_left{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		margin-right: 5%;
+		float: left;
+	}
+	#box_3_center{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		margin-right: 5%;
+		float: left;
+	}
+	#box_3_right{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		float: left;
+	}
+	#box_4{
+		background-color: #B38D8E;
+		height: 225px;
+		width: auto;
+		margin-bottom: 20px;
+	}
+	#box_4_left{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		margin-right: 5%;
+		float: left;
+	}
+	#box_4_center{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		margin-right: 5%;
+		float: left;
+	}
+	#box_4_right{
+		background-color: #E5E5E5;
+		width: 30%;
+		height: 225px;
+		float: left;
+	}
+
+</style>
+
+<body>
+	<div id="wrapper">
+		<div id="main1">
+			<div id="header">
+				<div id="name"></div>
+				<div id="logo"></div>
+				<div id="navbox_all">
+					<div id="navbox_left"></div>
+					<div id="navbox_center_left"></div>
+					<div id="navbox_center"></div>
+					<div id="navbox_center_right"></div>
+					<div id="navbox_right"></div>
+				</div>
+				</div>
+
+			<div id="pic_box"></div>
+		
+			<div id="subnav">
+					<div id="subnav_left"></div>
+					<div id="subnav_center"></div>
+					<div id="subnav_right"></div>
+				</div>
+			</div>
+		<div id="main2">
+			<div id="marquee"></div>
+			<div id="mind2_pic_box"></div>
+		</div>
+		<div id="main3">
+			<div id="box_1">
+				<div id="box_1_left"></div>
+				<div id="box_1_center"></div>
+				<div id="box_1_right"></div>
+			</div>
+			<div id="box_2">
+				<div id="box_2_left"></div>
+				<div id="box_2_center"></div>
+				<div id="box_2_right"></div>
+			</div>
+			<div id="box_3">
+				<div id="box_3_left"></div>
+				<div id="box_3_center"></div>
+				<div id="box_3_right"></div>
+			</div>
+			<div id="box_4">
+				<div id="box_4_left"></div>
+				<div id="box_4_center"></div>
+				<div id="box_4_right"></div>
+			</div>
+
+			<div id="footer"></div>
+		</div>
+		</div>
+</body>
+</html>
